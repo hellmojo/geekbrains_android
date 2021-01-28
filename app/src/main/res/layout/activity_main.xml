@@ -1,1 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/tv_one"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="42sp"
+        android:textColor="@color/cardview_dark_background"
+        android:text="TextView"/>
+    <EditText
+        android:id="@+id/et_two"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Edit Text"/>
+    <Button
+        android:id="@+id/bt_three"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Кнопка"/>
+    <Switch
+        android:id="@+id/sw_four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="switch"/>
+    <CheckBox
+        android:id="@+id/chk_box_five"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="checkbox"/>
+    <ToggleButton
+        android:id="@+id/tg_btn_six"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toggle"/>
+
+</LinearLayout>
